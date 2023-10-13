@@ -1,0 +1,67 @@
+.rating-section {
+    background-color: #ECF0F2;
+    padding         : 250px 0 50px 0;
+}
+
+.rating-list {
+    display        : flex;
+    flex-wrap      : wrap;
+    justify-content: space-between;
+
+}
+
+.rating-item-rate {
+    width        : 500px;
+    margin-bottom: 100px;
+}
+
+.rating-item {
+    position        : relative;
+    width           : 500px;
+    background-color: #fff;
+    border-radius   : 20px;
+    padding         : 60px 40px 40px 40px;
+    margin-bottom   : 120px;
+    box-shadow      : rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.rating-item-number {
+    color      : #22323d;
+    font-size  : 90px;
+    font-weight: 600;
+}
+
+.rating-item__toptext {
+    font-size  : 15px;
+    color      : #22323d;
+    font-weight: 600;
+}
+
+.rating-item__personImg {
+    position     : absolute;
+    top          : -55px;
+    left         : 40px;
+    border-radius: 20px;
+    box-shadow   : rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+
+}
+
+.rating-item__text {
+    width        : 100%;
+    max-width    : 400px;
+    font-weight  : 500;
+    font-size    : 15px;
+    margin-bottom: 20px;
+}
+
+.rating-item__person-name {
+    font-size  : 15px;
+    font-weight: 600;
+
+}
+
+.rating-item__downstar {
+    position: absolute;
+    bottom  : -25px;
+    right   : 5px;
+}

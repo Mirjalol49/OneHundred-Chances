@@ -1,0 +1,55 @@
+.chances-section {
+
+
+    background-image     : url(../../../assets//images/background.jpg);
+    background-repeat    : no-repeat;
+    background-attachment: fixed;
+    background-position  : center;
+    background-size      : cover;
+    height               : 350px;
+}
+
+.chances-overlay {
+    background-color: rgba(23, 128, 152, 0.9);
+    width           : 100%;
+    height          : 350px;
+}
+
+.chances-list {
+    display        : flex;
+    justify-content: space-between;
+    padding        : 40px 0;
+}
+
+.chances-title {
+    font-family  : 'Poppins', sans-serif;
+    font-weight  : 600;
+    font-size    : 25px;
+    line-height  : 38px;
+    width        : 300px;
+    color        : #fff;
+    margin-bottom: 20px;
+
+}
+
+.chances-text {
+    font-weight: 400;
+    width      : 300px;
+    color      : #fff;
+}
+
+.chances-topboxes {
+    display    : flex;
+    align-items: center;
+
+    margin-bottom: 40px;
+}
+
+.chances-one {
+    transform       : skew(-55deg, 0deg);
+    width           : 20px;
+    height          : 5px;
+    background-color: #FF9635;
+    margin          : 0 10px;
+
+}

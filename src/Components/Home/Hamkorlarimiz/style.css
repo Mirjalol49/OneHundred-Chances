@@ -1,0 +1,63 @@
+.sponsor-section {
+    background-color: #ECF0F2;
+    padding         : 20px 0 200px 0;
+}
+
+.sponsor-wrapper {
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+    margin-bottom  : 80px;
+}
+
+.sponsor-title {
+    font-family: 'Poppins', sans-serif;
+    font-size  : 45px;
+    line-height: 59px;
+
+}
+
+.sponsor-list {
+    display    : flex;
+    align-items: center;
+}
+
+.sponsor-item {
+    margin: 0 15px 0 15px;
+}
+
+.sponsor-end-wrapper {
+
+    float          : right;
+    display        : flex;
+    justify-content: space-between;
+    width          : 100%;
+    max-width      : 800px;
+}
+
+.sponsor-title-wrapper {
+    border-left : 2px solid #FE9535;
+    padding-left: 30px;
+}
+
+.sponsor-subtitle {
+    font-size  : 15px;
+    line-height: 28px;
+    color      : #22323d;
+    font-weight: 400;
+}
+
+.sponsor-subbtn {
+    border          : none;
+    padding         : 10px 25px;
+    background-color: #FE9535;
+    color           : #fff;
+    border-radius   : 50px;
+    cursor          : pointer;
+    transition      : 0.3s all;
+    height          : 40px;
+}
+
+.sponsor-subbtn:hover {
+    background-color: #22323d;
+}

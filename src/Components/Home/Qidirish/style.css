@@ -1,0 +1,64 @@
+.qidirish-section {
+    padding         : 50px 0;
+    background-color: #ECF0F2;
+}
+
+.qidirish-input-wrapper {
+    position     : relative;
+    margin-bottom: 50px;
+}
+
+.qidirish-input {
+
+    width          : 100%;
+    max-width      : 1110px;
+    border-radius  : 5px;
+    margin         : 0 auto;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    padding        : 10px;
+    border         : 1px solid #A0A0A0;
+    outline        : none;
+
+
+}
+
+.qidirish-icon {
+    position        : absolute;
+    right           : 55px;
+    top             : 0;
+    background-color: #05CFF8;
+    border-radius   : 0 5px 5px 0;
+    width           : 60px;
+    height          : 46px;
+    padding         : 10px;
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    cursor          : pointer;
+}
+
+.qidirish-list {
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+    flex-wrap      : wrap;
+    width          : 100%;
+    max-width      : 1100px;
+    margin         : 0 auto;
+}
+
+.qidirish-item {
+    width             : 210px;
+    background-color  : #5BC0DE;
+    margin            : 10px;
+    padding           : 30px;
+    text-align        : center;
+    border-radius     : 30px;
+    cursor            : pointer;
+    color             : #fff;
+    -webkit-box-shadow: 0px 25px 39px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow   : 0px 25px 39px -6px rgba(0, 0, 0, 0.75);
+    box-shadow        : 0px 25px 39px -6px rgba(0, 0, 0, 0.75);
+}

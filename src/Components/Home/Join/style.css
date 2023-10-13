@@ -1,0 +1,17 @@
+.footer-section {
+    background-color: #ECF0F2;
+    padding         : 100px 0;
+}
+
+.footer-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size  : 45px;
+
+    text-align: center;
+}
+
+.footer-text {
+    font-size : 15px;
+    text-align: center;
+}

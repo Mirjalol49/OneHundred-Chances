@@ -1,0 +1,88 @@
+.imkoniyat-section {
+    background-color: hsl(200, 19%, 94%);
+    padding-bottom  : 30px;
+}
+
+.imkoniyat-title {
+    font-family   : 'Montserrat', sans-serif;
+    font-size     : 38px;
+    line-height   : 49px;
+    font-weight   : 600;
+    margin-top    : 30px;
+    letter-spacing: 3px;
+}
+
+.imkoniyat-underline {
+    padding-bottom: 20px;
+    border-bottom : 2px solid black;
+    display       : inline-block;
+    margin-bottom : 40px;
+}
+
+.imkoniyat-list {
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+}
+
+.imkoniyat-item {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+
+}
+
+.imkoniyat-img {
+    text-align   : center;
+    border-radius: 10px;
+}
+
+.imkoniyat-subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size  : 20px;
+    line-height: 28px;
+    text-align : center;
+    margin-top : 30px;
+    width      : 400px;
+}
+
+.imkoniyat-text {
+    font-size   : 14px;
+    line-height : 26px;
+    text-align  : center;
+    margin-top  : 20px;
+    word-spacing: 5px;
+    width       : 350px;
+
+
+}
+
+.imkoniyat-btn {
+    background-color: #5BC0DE;
+    color           : #fff;
+    padding         : 5px 25px;
+    font-weight     : 500;
+    border          : none;
+    width           : 130px;
+    border-radius   : 50px;
+    cursor          : pointer;
+    margin-top      : 30px;
+    text-align      : center;
+
+}
+
+.imkoniyat-add-btn {
+    text-align      : center;
+    background-color: #FF9635;
+    color           : #fff;
+    border          : none;
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    border-radius   : 10px;
+    margin          : 40px auto 0 auto;
+    cursor          : pointer;
+
+
+}

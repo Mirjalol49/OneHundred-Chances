@@ -1,0 +1,87 @@
+.contact-section {
+    background-color: #ECF0F2;
+    padding         : 80px 0;
+
+}
+
+.contact-wrapper {
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+
+}
+
+.contact-img {
+    border-radius: 10px;
+}
+
+.contact-wrapper-end {
+    display       : flex;
+    align-items   : center;
+    flex-direction: column;
+    width         : 50%;
+}
+
+.contact-title {
+    font-weight  : 600;
+    font-size    : 23px;
+    line-height  : 40px;
+    margin-bottom: 20px;
+}
+
+.contact-name-input {
+    border       : 1px solid #DDDDDD;
+    outline      : none;
+    width        : 100%;
+    max-width    : 600px;
+    padding      : 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+.contact-email-input {
+    border       : 1px solid #DDDDDD;
+    outline      : none;
+    width        : 100%;
+    max-width    : 600px;
+    padding      : 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+.contact-subject-input {
+    border       : 1px solid #DDDDDD;
+    outline      : none;
+    width        : 100%;
+    max-width    : 600px;
+    padding      : 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+.contact-message-input {
+    border       : 1px solid #DDDDDD;
+    border-radius: 5px;
+    outline      : none;
+    padding      : 10px;
+}
+
+.contact-btn {
+    float           : left;
+    margin-top      : 15px;
+    border          : none;
+    background-color: #FF9635;
+    color           : #fff;
+    border-radius   : 20px;
+    padding         : 10px 20px;
+    cursor          : pointer;
+    transition      : 0.3s all;
+
+}
+
+.contact-btn:hover {
+    background-color: #054653;
+}
