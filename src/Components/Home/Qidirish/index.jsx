@@ -15,8 +15,8 @@ const Qidirish = () => {
             <img
               src={SearchIcon}
               alt="search icon"
-              width={"28px"}
-              height={"28px"}
+              width={"25px"}
+              height={"25px"}
             />
           </div>
         </div>
