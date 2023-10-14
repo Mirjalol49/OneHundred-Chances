@@ -10,7 +10,7 @@ const Header = () => {
       <header className="site-header">
         <div className="container">
           <div className="header-wrapper">
-            <a href="Home">
+            <a href="/">
               <img
                 src={Logo}
                 alt="100ta imkoniyat logo"
